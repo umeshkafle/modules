@@ -1,0 +1,18 @@
+#umesh{
+		float:left;
+		width:239px;
+		height:152px;
+		background: url(/home/umesh/Desktop/webpage/logo.png) no-repeate;
+}
+
+#logo {
+		position: absolute;
+		top:8px;
+		left:390px;
+		width:141px;
+		background: url(..webpage/logo1.png) no-repeate;
+		-webkit-transition: opacity .2s ease-in-out;
+		-web-transition:opacity .2s ease-in-out;
+		-o-transition:opacity .2s ease-in-out;
+		transition: opacity .2s ease-in-out;
+}
