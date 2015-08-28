@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @course.title %>
+</p>
+
+<p>
+  <strong>Tutor name:</strong>
+  <%= @course.tutor_name %>
+</p>
+
+<p>
+  <strong>Start date:</strong>
+  <%= @course.start_date %>
+</p>
+
+<p>
+  <strong>End date:</strong>
+  <%= @course.end_date %>
+</p>
+
+<p>
+  <strong>Cost:</strong>
+  <%= @course.cost %>
+</p>
+
+<p>
+  <strong>Syllabus:</strong>
+  <%= @course.syllabus %>
+</p>
+
+<p>
+  <strong>pre_requisite:</strong>
+  <%= @course.pre_requisite %>
+</p>
+
+<p>
+  <strong>Chapters</strong>
+  <ul>
+
+  <%@course.chapters.each { |chapter|%>
+    <li><%= chapter.title %></li>
+  <%}%>
+  </ul>
+</p>
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>
