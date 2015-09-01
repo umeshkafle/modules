@@ -1,0 +1,52 @@
+body {
+	background-color:#777;
+	color:#000 ;
+}
+
+  #navigation li {
+		display: inline-block;
+		font-size:16pt;
+		padding-left:40x;
+		margin:10px;	
+}
+#navigation li a{
+				color:#EEE;
+				text-decoration:none;
+}
+#topsection{
+			background-color:#000;
+				}
+				
+#topnav a{
+			text-decoration:none;
+			}
+				
+
+ #name p{
+ 	padding-left:-500px;
+ 	float:left;
+	margin-top:70px;
+	margin-left:50px;
+			text-decoration: none;
+			font-size: 12px;
+			font-family:sans-serif;
+}
+
+#umesh{
+		float:left;
+		width:239px;
+		height:152px;
+		background: url(/home/umesh/Desktop/webpage/logo.png) no-repeate;
+}
+
+#logo {
+		float:left;
+		top:8px;
+		left:390px;
+		width:141px;
+		background: url(..webpage/logo1.png) no-repeate;
+		-webkit-transition: opacity .2s ease-in-out;
+		-web-transition:opacity .2s ease-in-out;
+		-o-transition:opacity .2s ease-in-out;
+		transition: opacity .2s ease-in-out;
+}
